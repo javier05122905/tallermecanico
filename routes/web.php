@@ -18,6 +18,7 @@ Route::get('eliminavehiculos/{idve}',[tallercontroller::class,'eliminavehiculos'
 Route::get('desactivavehiculos/{idve}',[tallercontroller::class,'desactivavehiculos'])->name('desactivavehiculos');
 Route::get('activavehiculos/{idve}',[tallercontroller::class,'activavehiculos'])->name('activavehiculos');
 Route::get('principal',[tallercontroller::class,'principal'])->name('principal');
+Route::get('prueba',[tallercontroller::class,'prueba'])->name('prueba');
 
 
 Route::get('inicio',[logincontroller::class,'inicio'])->name('inicio');
