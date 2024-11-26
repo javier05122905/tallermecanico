@@ -8,7 +8,8 @@
 
     <body><center>
 
-Inicio de Sesion <br>
+Inicio de Sesion git hub <br>
+
 <form action = "{{route('validar')}}" method= "POST">
 {{ csrf_field() }}
 <table>
